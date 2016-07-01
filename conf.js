@@ -19,6 +19,7 @@ exports.config = {
     framework: 'custom',
     frameworkPath: 'protractor-cucumber-framework',
     specs: ['features/*.feature'],
+    baseUrl: 'http://juliemr.github.io',
 
     capabilities: {
         browserName: 'chrome'
@@ -29,9 +30,8 @@ exports.config = {
         require: 'features/step_definitions'
     },
 
-
     jasmineNodeOpts: {
         showColors: true,
         defaultTimeoutInterval: 300000
     }
-}
+};
