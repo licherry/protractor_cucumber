@@ -26,12 +26,15 @@ exports.config = {
     },
 
     cucumberOpts: {
-        format: 'pretty',
-        require: 'features/step_definitions'
+        format: 'json',
+        require:['features/step_definitions/*.js','support/*.js'],
+        failFast: false,
+        timeout: 20000,
+        ignoreUndefinedDefinitions: false
     },
 
-    jasmineNodeOpts: {
-        showColors: true,
-        defaultTimeoutInterval: 300000
+    onComplete: function () {
+        console.log('all done');
+        browser.driver.close();
     }
 };

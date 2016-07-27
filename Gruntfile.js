@@ -18,6 +18,7 @@ module.exports = function (grunt) {
                 }
             }
         },
+
         protractor: {
             options: {
                 configFile: "conf.js", // Default config file

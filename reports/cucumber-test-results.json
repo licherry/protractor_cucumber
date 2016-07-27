@@ -1,0 +1,74 @@
+[
+  {
+    "elements": [
+      {
+        "id": "super-calculator;add-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "add functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to home page",
+            "result": {
+              "status": "passed",
+              "duration": 4141407
+            },
+            "line": 3,
+            "match": {
+              "location": "/Users/chenli/Documents/Projects/Protractor/protractor-cucumber/features/step_definitions/caculator_steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input \"2\" and \"3\" into boxes",
+            "result": {
+              "status": "passed",
+              "duration": 1574181
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/chenli/Documents/Projects/Protractor/protractor-cucumber/features/step_definitions/caculator_steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Go button",
+            "result": {
+              "status": "passed",
+              "duration": 527012
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/chenli/Documents/Projects/Protractor/protractor-cucumber/features/step_definitions/caculator_steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get result as \"5\"",
+            "result": {
+              "status": "passed",
+              "duration": 610634
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/chenli/Documents/Projects/Protractor/protractor-cucumber/features/step_definitions/caculator_steps.js:27"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "super-calculator",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Super Calculator",
+    "tags": [],
+    "uri": "/Users/chenli/Documents/Projects/Protractor/protractor-cucumber/features/caculator.feature"
+  }
+]
