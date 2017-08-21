@@ -13,7 +13,7 @@
             "name": "I go to home page",
             "result": {
               "status": "passed",
-              "duration": 4141407
+              "duration": 7545762
             },
             "line": 3,
             "match": {
@@ -26,7 +26,7 @@
             "name": "I input \"2\" and \"3\" into boxes",
             "result": {
               "status": "passed",
-              "duration": 1574181
+              "duration": 3127642
             },
             "line": 4,
             "match": {
@@ -39,7 +39,7 @@
             "name": "I click Go button",
             "result": {
               "status": "passed",
-              "duration": 527012
+              "duration": 1098829
             },
             "line": 5,
             "match": {
@@ -52,7 +52,7 @@
             "name": "I get result as \"5\"",
             "result": {
               "status": "passed",
-              "duration": 610634
+              "duration": 2428420
             },
             "line": 6,
             "match": {

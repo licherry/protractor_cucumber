@@ -3,7 +3,7 @@ var osName = require('os-name')();
 
 console.log('current os: ', osName);
 
-var chromeDriverPath = './tools/chromedriver_mac32/chromedriver';
+var chromeDriverPath = './tools/chromedriver_mac32/chromedriver_2.31';
 
 if (osName.indexOf('Windows') >= 0) {
     chromeDriverPath = './tools/chromedriver_win32/chromedriver.exe';
@@ -12,7 +12,7 @@ if (osName.indexOf('Windows') >= 0) {
 }
 
 exports.config = {
-    seleniumServerJar: './tools/selenium-server-standalone-2.45.0.jar',
+    seleniumServerJar: './tools/selenium-server-standalone-3.5.1.jar',
     chromeDriver: chromeDriverPath,
     directConnect: true,
 
